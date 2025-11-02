@@ -1,0 +1,3 @@
+#!/bin/bash
+
+chemprop_predict --test_path uvvisml/uvvisml/data/splits/lambda_max_abs/deep4chem/group_by_smiles/smiles_target_test.csv --checkpoint_dir C:\Users\srinr\OneDrive\Desktop\ChemLLM Research 2025-2026 Project\uvvisml\uvvisml\models\lambda_max_abs\chemprop\combined\production\fold_0 --preds_path uvvisml/uvvisml/data/splits/lambda_max_abs/deep4chem/group_by_smiles/smiles_target_test.csv --number_of_molecules 2 --ensemble_variance
