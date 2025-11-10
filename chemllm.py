@@ -170,7 +170,7 @@ validate_mol_tool = types.Tool(
 # DEFINING THE LLM MODEL
 
 # defining the API key
-client = genai.Client(api_key="AIzaSyDlP0LdGecdeNa_t972EN-7xlNRWPPnZaA")
+client = genai.Client(api_key="")
 
 # prompt and role
 modelrole = "You are a molecular designer. I want you to analyze the structure of the following Retinal molecule: CC1=C(C(CCC1)(C)C)/C=C/C(=C/C=C\C(=C\C=O)\C)/C. Use the provided research paper file on azobenzene structures  (summarize findings once you read them)  and searching to find structures to improve light asorption properties and photoswitch prorperites. Once 3 structures are made, use validation_mol tool *for one of the molecules provided* just to check if the structures are valid but continue with the response you were already providing, do not repeadtly call the function, stop and give a final list of those structures with an explanation of such changes."
